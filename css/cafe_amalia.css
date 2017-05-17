@@ -92,50 +92,50 @@ h1 {
 }
 
 /* buyit */
-#buyit {
+.buyit {
     /*width: 150px;*/
 }
-#buyit #buyit-img {
+.buyit .buyit-img {
     border: 1px solid #DDDDDD;
 }
-#buyit #buyit-img img {
+.buyit .buyit-img img {
     height: 100%;
     margin: 0 auto;
 }
-#buyit #buyit-text {
+.buyit .buyit-text {
     padding: 5px;
     border: 1px solid #DDDDDD;
     margin-top: -1px;
 }
-#buyit #buyit-text h3 {
+.buyit .buyit-text h3 {
     margin: 0;
     padding-bottom: 2px;
     border-bottom: 1px solid #DDDDDD;
     font-size: 16px;
 }
-#buyit #buyit-text p {
+.buyit .buyit-text p {
     font-size: 12px;
     margin-bottom: 0;
     letter-spacing: 0;
 }
-#buyit #buyit-price {
+.buyit .buyit-price {
     height: 38px;
     margin-top: -1px;
     border: 1px solid #DDDDDD;
     padding: 5px;
 }
-#buyit #buyit-price h5 {
+.buyit .buyit-price h5 {
     margin-top: 2px;
     font-size: 20px;
     float: left;
 }
 /* #buyit #buyit-price h5 if resolution < 400px */
-@media (max-width: 399px) { #buyit #buyit-price h5 {
+@media (max-width: 399px) { .buyit .buyit-price h5 {
     margin-top: 4px;
     font-size: 16px;
     }
 }
-#buyit #buyit-price button {
+.buyit .buyit-price button {
     float: right;
 }
 
